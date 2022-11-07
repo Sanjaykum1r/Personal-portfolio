@@ -34,7 +34,9 @@ const Services = () => {
 
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <br />
+          <br />
+          <button className="button i-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -69,19 +71,7 @@ const Services = () => {
           />
         </motion.div>
 
-        {/* 3rd
-        <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "12rem" }}
-          transition={transition}
-        >
-          <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail=""
-            color="rgba(252, 166, 31, 0.45)"
-          />
-        </motion.div> */}
+
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
