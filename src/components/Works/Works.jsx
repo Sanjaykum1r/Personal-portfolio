@@ -34,9 +34,7 @@ const Works = () => {
 
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <br />
-            <br />
-            <button className="button i-button">Hire Me</button>
+            <button className="button s-button">Hire Me</button>
           </Link>
           <div
             className="blur s-blur1"
