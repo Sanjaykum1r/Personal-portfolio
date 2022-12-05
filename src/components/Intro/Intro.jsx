@@ -11,7 +11,7 @@ import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
+// import { motion } from 'framer-motion/dist/framer-motion'
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
@@ -55,34 +55,34 @@ const Intro = () => {
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
         {/* animation */}
-        <motion.img
+        {/* <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
           src={glassesimoji}
           alt=""
-        />
+        /> */}
 
-        <motion.div
+        {/* <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
-        >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </motion.div>
+        > */}
+        <FloatinDiv img={crown} text1="Web" text2="Developer" />
+        {/* </motion.div> */}
 
         {/* animation */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "1rem" }}
           transition={transition}
           className="floating-div"
-        >
-          {/* floatinDiv mein change hy dark mode ka */}
+        > */}
+        {/* floatinDiv mein change hy dark mode ka */}
 
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-        </motion.div>
+        <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+        {/* </motion.div> */}
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

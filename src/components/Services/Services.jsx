@@ -5,7 +5,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Resume from './resume.pdf';
 
 const Services = () => {
@@ -43,33 +43,33 @@ const Services = () => {
       {/* right */}
       <div className="cards">
         {/* first card */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
-        >
-          <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Photoshop"}
-          />
-        </motion.div>
+        > */}
+        <Card
+          emoji={HeartEmoji}
+          heading={"Design"}
+          detail={"Figma, Photoshop"}
+        />
+        {/* </motion.div> */}
         {/* second card */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
-        >
-          <div
-            className="blur s-blur3"
-            style={{ background: "var(--purple)" }}
-          ></div>
-          <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Java, Flutter"}
-          />
-        </motion.div>
+        > */}
+        <div
+          className="blur s-blur3"
+          style={{ background: "var(--purple)" }}
+        ></div>
+        <Card
+          emoji={Glasses}
+          heading={"Developer"}
+          detail={"Html, Css, JavaScript, React, Java, Flutter"}
+        />
+        {/* </motion.div> */}
 
 
         <div
